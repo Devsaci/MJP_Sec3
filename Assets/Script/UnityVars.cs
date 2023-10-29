@@ -12,7 +12,7 @@ public class UnityVars : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        goPos = transform.position;
+        goPos = goTransform.position;
     }
 
     // Update is called once per frame
