@@ -7,6 +7,8 @@ public class UnityVars : MonoBehaviour
     // Variable
     public GameObject go;
     public Transform goTransform;
+    public Vector3 goPos;
+
     // Start is called before the first frame update
     void Start()
     {
