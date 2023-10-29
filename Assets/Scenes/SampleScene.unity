@@ -424,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d80b221dd9d3824380f0eceefd0eb37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  go: {fileID: 0}
+  go: {fileID: 1179205847}
   goTransform: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
