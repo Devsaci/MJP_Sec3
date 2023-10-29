@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class UnityVars : MonoBehaviour
 {
-
+    // Variable
     public GameObject go;
+    public Transform goTransform;
     // Start is called before the first frame update
     void Start()
     {
