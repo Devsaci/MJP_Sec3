@@ -20,6 +20,7 @@ public class UnityVars : MonoBehaviour
         rend = GetComponent<Renderer>();
         mat = rend.material;
         col = GetComponent<Collider>();
+        rend.enabled = true;
     }
 
     // Update is called once per frame
