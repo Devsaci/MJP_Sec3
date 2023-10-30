@@ -19,6 +19,7 @@ public class UnityVars : MonoBehaviour
         transform.position = goPos;
         rend = GetComponent<Renderer>();
         mat = rend.material;
+        col = GetComponent<Collider>();
     }
 
     // Update is called once per frame
