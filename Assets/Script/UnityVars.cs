@@ -9,6 +9,7 @@ public class UnityVars : MonoBehaviour
     public Transform goTransform;
     public Vector3 goPos;
     public Renderer rend;
+    public Material mat;
     public Collider col;
 
     // Start is called before the first frame update
@@ -16,6 +17,8 @@ public class UnityVars : MonoBehaviour
     {
         goPos = goTransform.position;
         transform.position = goPos;
+        rend = GetComponent<Renderer>();
+        mat = rend.material;
     }
 
     // Update is called once per frame
