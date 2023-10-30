@@ -425,7 +425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   go: {fileID: 1179205847}
-  goTransform: {fileID: 1179205851}
+  goTransform: {fileID: 1853466491}
   goPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1853466487
 GameObject:
