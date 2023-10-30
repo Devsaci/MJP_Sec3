@@ -13,6 +13,7 @@ public class UnityVars : MonoBehaviour
     void Start()
     {
         goPos = goTransform.position;
+        transform.position = goPos;
     }
 
     // Update is called once per frame
