@@ -9,6 +9,7 @@ public class UnityVars : MonoBehaviour
     public Transform goTransform;
     public Vector3 goPos;
     public Renderer rend;
+    public Collider col;
 
     // Start is called before the first frame update
     void Start()
