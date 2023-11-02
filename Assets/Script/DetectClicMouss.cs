@@ -9,7 +9,8 @@ public class DetectClicMouss : MonoBehaviour
 
     private void OnMouseDown()
     {
-        
+        isClicked = true;
+        GetComponent<Renderer>().material.color = colors[3];
     }
 
     private void OnMouseOver()
@@ -25,7 +26,7 @@ public class DetectClicMouss : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        isClicked = true;   
+      
         GetComponent<Renderer>().material.color = colors[2];
     }
 
