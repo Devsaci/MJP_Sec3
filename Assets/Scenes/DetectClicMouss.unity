@@ -333,9 +333,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colors:
-  - {r: 0, g: 0.12563005, b: 0.990566, a: 1}
-  - {r: 0.9716981, g: 0, b: 0, a: 0.99607843}
+  - {r: 0.99215686, g: 0, b: 0.080781356, a: 1}
+  - {r: 0, g: 0.18062177, b: 0.972549, a: 0.99607843}
   - {r: 0.17879398, g: 0.9433962, b: 0.021359887, a: 0.9882353}
+  isClicked: 0
 --- !u!1 &1199389403
 GameObject:
   m_ObjectHideFlags: 0
