@@ -13,6 +13,9 @@ public class DetectClicMouss : MonoBehaviour
         
     }
 
-
+    private void OnMouseExit()
+    {
+        
+    }
 
 }
