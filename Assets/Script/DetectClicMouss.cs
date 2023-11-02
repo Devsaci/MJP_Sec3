@@ -20,7 +20,8 @@ public class DetectClicMouss : MonoBehaviour
         }
 
         ////////////////////////////////////////////////////
-        ///
+       
+
         if (Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
             if (Camera.main.fieldOfView <= 95)
