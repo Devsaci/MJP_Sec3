@@ -11,7 +11,7 @@ public class DetectClicMouss : MonoBehaviour
     {
        if (Input.GetMouseButtonDown(0)) 
         {
-        
+        GetComponent<Renderer>().material.color = colors[0];
         }
         
     }
