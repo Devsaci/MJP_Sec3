@@ -8,7 +8,7 @@ public class DetectClicMouss : MonoBehaviour
 
     private void OnMouseOver()
     {
-        
+        GetComponent<Renderer>().material.color = colors[0];
     }
 
 
