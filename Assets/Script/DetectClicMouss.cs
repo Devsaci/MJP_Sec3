@@ -6,6 +6,11 @@ public class DetectClicMouss : MonoBehaviour
 {
     public Color[] colors;
 
- 
+    private void OnMouseOver()
+    {
+        
+    }
+
+
 
 }
