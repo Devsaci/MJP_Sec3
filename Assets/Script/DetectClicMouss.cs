@@ -5,9 +5,11 @@ using UnityEngine;
 public class DetectClicMouss : MonoBehaviour
 {
     public Color[] colors;
+    public bool sClicked = false;
 
     private void OnMouseOver()
     {
+        if (sClicked) 
         GetComponent<Renderer>().material.color = colors[0];
     }
     private void OnMouseExit()
