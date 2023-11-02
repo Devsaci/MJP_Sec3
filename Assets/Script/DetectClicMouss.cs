@@ -6,7 +6,7 @@ public class DetectClicMouss : MonoBehaviour
 {
     public Color[] colors;
     public bool isClicked = false;
-    public float scrollSpeed = 5;
+    public float scrollSpeed;
 
     private void Update()
     {
@@ -19,13 +19,17 @@ public class DetectClicMouss : MonoBehaviour
             GetComponent<Renderer>().material.color = colors[1];
         }
 
-        if (Input.GetAxis("Mousse ScrollWheel") > 0f)
+        ////////////////////////////////////////////////////
+        ///
+        if (Input.GetAxis("Mouse ScrollWheel") > 0f)
         {
-            Camera.main.fieldOfView += scrollSpeed;
+            if (Camera.main.fieldOfView <= 95)
+                Camera.main.fieldOfView += scrollSpeed;
         }
-        if (Input.GetAxis("Mousse ScrollWheel") < 0f)
+        if (Input.GetAxis("Mouse ScrollWheel") < 0f)
         {
-            Camera.main.fieldOfView -= scrollSpeed;
+            if (Camera.main.fieldOfView >= 45)
+                Camera.main.fieldOfView -= scrollSpeed;
         }
     }
 
