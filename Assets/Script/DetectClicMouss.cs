@@ -21,11 +21,11 @@ public class DetectClicMouss : MonoBehaviour
 
         if (Input.GetAxis("Mousse ScrollWheel") > 0f)
         {
-            Camera.main.fieldOfView+= scrollSpeed;
+            Camera.main.fieldOfView += scrollSpeed;
         }
         if (Input.GetAxis("Mousse ScrollWheel") < 0f)
         {
-            Camera.main.fieldOfView--;
+            Camera.main.fieldOfView -= scrollSpeed;
         }
     }
 
