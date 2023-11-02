@@ -16,7 +16,7 @@ public class DetectClicMouss : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        
+        GetComponents<Renderer>.material.color = colors[2];
     }
 
 
