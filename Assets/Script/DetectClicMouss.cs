@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DetectClicMouss : MonoBehaviour
 {
-
+    public Color[] colors;
 
  
 
