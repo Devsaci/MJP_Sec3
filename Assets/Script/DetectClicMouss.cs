@@ -13,7 +13,11 @@ public class DetectClicMouss : MonoBehaviour
         {
         GetComponent<Renderer>().material.color = colors[0];
         }
-        
+        if (Input.GetMouseButtonDown(1))
+        {
+            GetComponent<Renderer>().material.color = colors[1];
+        }
+
     }
 
 
