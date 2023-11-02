@@ -9,7 +9,10 @@ public class DetectClicMouss : MonoBehaviour
 
     private void Update()
     {
-       
+       if (Input.GetMouseButtonDown(0)) 
+        {
+        
+        }
         
     }
 
