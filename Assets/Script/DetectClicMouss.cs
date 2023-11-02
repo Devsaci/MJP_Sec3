@@ -18,6 +18,14 @@ public class DetectClicMouss : MonoBehaviour
             GetComponent<Renderer>().material.color = colors[1];
         }
 
+        if (Input.GetAxis("Mousse ScrollWheel") > 0f)
+        {
+            Camera.main.fieldOfView++;
+        }
+        if (Input.GetAxis("Mousse ScrollWheel") < 0f)
+        {
+            Camera.main.fieldOfView--;
+        }
     }
 
 }
