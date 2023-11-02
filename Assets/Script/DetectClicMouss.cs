@@ -9,9 +9,9 @@ public class DetectClicMouss : MonoBehaviour
 
     private void Update()
     {
-       if (Input.GetMouseButtonDown(0)) 
+        if (Input.GetMouseButtonDown(0))
         {
-        GetComponent<Renderer>().material.color = colors[0];
+            GetComponent<Renderer>().material.color = colors[0];
         }
         if (Input.GetMouseButtonDown(1))
         {
@@ -19,6 +19,5 @@ public class DetectClicMouss : MonoBehaviour
         }
 
     }
-
 
 }
