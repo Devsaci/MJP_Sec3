@@ -12,7 +12,7 @@ public class DetectClicMouss : MonoBehaviour
     }
     private void OnMouseExit()
     {
-        
+        GetComponent<Renderer>().material.color = colors[1];
     }
 
 
