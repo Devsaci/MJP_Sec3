@@ -15,7 +15,7 @@ public class DetectKeyBoard : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            transform.Translate(Vector3.forward);
+            transform.Translate(Vector3.back);
         }
 
     }
