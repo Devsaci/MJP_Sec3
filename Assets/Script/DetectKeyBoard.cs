@@ -6,7 +6,7 @@ public class DetectKeyBoard : MonoBehaviour
 {
 
 
-    public float speed = 10;
+    public float speed = 100;
     void Update()
     {
         if (Input.GetKey(KeyCode.UpArrow))
