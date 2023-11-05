@@ -31,7 +31,7 @@ public class DetectKeyBoard : MonoBehaviour
 
     public void MoveInDirection(Vector3 dir)
     {
-       
+       transform.Translate(dir * Time.deltaTime * speed);   
     }
 
 }
