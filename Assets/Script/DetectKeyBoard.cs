@@ -11,19 +11,19 @@ public class DetectKeyBoard : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow)) 
         {
-            transform.Translate(Vector3.forward);
+            transform.Translate(Vector3.forward * Time.deltaTime );
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.Translate(Vector3.back);
+            transform.Translate(Vector3.back * Time.deltaTime );
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(Vector3.right);
+            transform.Translate(Vector3.right * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(Vector3.left);
+            transform.Translate(Vector3.left * Time.deltaTime  );
         }
 
     }
