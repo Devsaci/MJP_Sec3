@@ -6,10 +6,10 @@ public class DetectKeyBoard : MonoBehaviour
 {
 
 
-    public float speed=10;
+    public float speed = 10;
     void Update()
     {
-        if (Input.GetKey(KeyCode.UpArrow)) 
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
@@ -19,12 +19,19 @@ public class DetectKeyBoard : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(Vector3.right * Time.deltaTime * speed );
+            transform.Translate(Vector3.right * Time.deltaTime * speed);
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(Vector3.left * Time.deltaTime * speed );
+            transform.Translate(Vector3.left * Time.deltaTime * speed);
         }
 
     }
+
+
+    public void MoveInDirection()
+    {
+       
+    }
+
 }
