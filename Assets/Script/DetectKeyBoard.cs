@@ -17,6 +17,10 @@ public class DetectKeyBoard : MonoBehaviour
         {
             transform.Translate(Vector3.back);
         }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            
+        }
 
     }
 }
