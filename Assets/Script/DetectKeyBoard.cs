@@ -9,7 +9,7 @@ public class DetectKeyBoard : MonoBehaviour
     
     void Update()
     {
-        if (!Input.GetKeyDown(KeyCode.UpArrow)) 
+        if (Input.GetKeyDown(KeyCode.UpArrow)) 
         {
             transform.Translate(Vector3.forward);
         }
