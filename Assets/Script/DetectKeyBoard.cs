@@ -9,19 +9,19 @@ public class DetectKeyBoard : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow)) 
+        if (Input.GetKey(KeyCode.UpArrow)) 
         {
             transform.Translate(Vector3.forward);
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             transform.Translate(Vector3.back);
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             transform.Translate(Vector3.right);
         }
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             transform.Translate(Vector3.left);
         }
