@@ -29,7 +29,7 @@ public class DetectKeyBoard : MonoBehaviour
     }
 
 
-    public void MoveInDirection()
+    public void MoveInDirection(Vector3 dir)
     {
        
     }
