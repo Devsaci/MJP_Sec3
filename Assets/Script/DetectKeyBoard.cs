@@ -23,7 +23,7 @@ public class DetectKeyBoard : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-          
+            transform.Translate(Vector3.left);
         }
 
     }
