@@ -19,7 +19,7 @@ public class DetectKeyBoard : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            
+            transform.Translate(Vector3.right);
         }
 
     }
