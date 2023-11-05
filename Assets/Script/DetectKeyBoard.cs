@@ -4,26 +4,26 @@ using UnityEngine;
 
 public class DetectKeyBoard : MonoBehaviour
 {
- 
 
-    
+
+    public float speed;
     void Update()
     {
         if (Input.GetKey(KeyCode.UpArrow)) 
         {
-            transform.Translate(Vector3.forward * Time.deltaTime );
+            transform.Translate(Vector3.forward * Time.deltaTime * speed);
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.Translate(Vector3.back * Time.deltaTime );
+            transform.Translate(Vector3.back * Time.deltaTime * speed);
         }
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            transform.Translate(Vector3.right * Time.deltaTime);
+            transform.Translate(Vector3.right * Time.deltaTime * speed );
         }
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            transform.Translate(Vector3.left * Time.deltaTime  );
+            transform.Translate(Vector3.left * Time.deltaTime * speed );
         }
 
     }
