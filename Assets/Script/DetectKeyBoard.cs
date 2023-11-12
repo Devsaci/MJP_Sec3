@@ -8,7 +8,7 @@ public class DetectKeyBoard : MonoBehaviour
 {
     // https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Input.GetAxis.html
 
-    public float speed = 10.0f;
+    public float speed = 5.0f;
     public float rotationSpeed = 100.0f;
 
     void Update()
