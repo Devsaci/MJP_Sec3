@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// 27. Détecter l'utilisation des touches du clavier pour déclencher des événements
 public class DetectKeyBoard : MonoBehaviour
 {
     // https://docs.unity3d.com/2022.3/Documentation/ScriptReference/Input.GetAxis.html

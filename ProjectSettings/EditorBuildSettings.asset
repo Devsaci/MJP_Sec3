@@ -4,5 +4,9 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/DetectKeyBoard.unity
+    guid: f19cb8192f6b2904197c8c0f49c63ba9
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
