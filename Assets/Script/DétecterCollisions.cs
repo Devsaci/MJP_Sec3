@@ -50,4 +50,9 @@ public class DétecterCollisions : MonoBehaviour
 
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        
+    }
+
 }
