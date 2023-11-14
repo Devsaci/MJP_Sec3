@@ -944,6 +944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rotationSpeed: 100
+  text: {fileID: 809901706}
 --- !u!1 &1509827375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 635547659545568360, guid: 81bb9eea30387e442899949a80011e55, type: 3}
@@ -963,6 +964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rotationSpeed: 100
+  text: {fileID: 0}
 --- !u!114 &1509827379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -977,6 +979,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rotationSpeed: 100
+  text: {fileID: 0}
 --- !u!114 &1509827380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,6 +994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   rotationSpeed: 100
+  text: {fileID: 0}
 --- !u!1 &1743188797
 GameObject:
   m_ObjectHideFlags: 0
