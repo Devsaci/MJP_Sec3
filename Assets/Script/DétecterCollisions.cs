@@ -39,4 +39,6 @@ public class DétecterCollisions : MonoBehaviour
         }
 
     }
+
+    private void OnCollisionExit(Collision collision) { }
 }
