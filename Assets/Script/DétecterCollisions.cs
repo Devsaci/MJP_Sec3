@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro:
 
 public class DétecterCollisions : MonoBehaviour
 {
@@ -25,7 +26,11 @@ public class DétecterCollisions : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "box1") { Destroy(collision.gameObject); }
+        if (collision.gameObject.tag == "box1") 
+        {
+            Destroy(collision.gameObject);
+        
+        }
         
     }
 }
