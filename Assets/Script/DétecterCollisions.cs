@@ -23,4 +23,8 @@ public class DétecterCollisions : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.Escape))
             Application.Quit();
     }
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
 }
