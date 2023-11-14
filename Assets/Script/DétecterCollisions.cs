@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro:
+using TMPro;
 
 public class DétecterCollisions : MonoBehaviour
 {
     public float speed = 5.0f;
     public float rotationSpeed = 100.0f;
+    public TMP_Text text;
 
     void Update()
     {
