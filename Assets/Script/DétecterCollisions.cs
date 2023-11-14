@@ -32,6 +32,7 @@ public class DétecterCollisions : MonoBehaviour
         {
             Destroy(collision.gameObject);
             nbColis++;
+            text.text = "" + nbColis;
 
 
         }
