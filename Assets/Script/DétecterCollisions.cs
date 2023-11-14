@@ -28,7 +28,7 @@ public class DétecterCollisions : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "box1")
+       /* if (collision.gameObject.tag == "box1")
         {
             collision.gameObject.tag = "Taken";
             Destroy(collision.gameObject);
@@ -36,7 +36,7 @@ public class DétecterCollisions : MonoBehaviour
             text.text = "" + nbColis;
 
 
-        }
+        }*/
 
     }
 
