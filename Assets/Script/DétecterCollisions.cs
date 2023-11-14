@@ -52,7 +52,7 @@ public class DétecterCollisions : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        other.gameObject.GetComponent<Renderer>().material.color = Color.red;
     }
 
 }
