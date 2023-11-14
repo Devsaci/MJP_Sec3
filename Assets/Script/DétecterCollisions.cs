@@ -30,6 +30,7 @@ public class DétecterCollisions : MonoBehaviour
     {
         if (collision.gameObject.tag == "box1")
         {
+            collision.gameObject.tag = "Taken";
             Destroy(collision.gameObject);
             nbColis++;
             text.text = "" + nbColis;
