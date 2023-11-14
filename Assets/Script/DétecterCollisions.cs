@@ -8,6 +8,7 @@ public class DétecterCollisions : MonoBehaviour
     public float speed = 5.0f;
     public float rotationSpeed = 100.0f;
     public TMP_Text text;
+    int nbColis = 0;
 
     void Update()
     {
@@ -27,11 +28,13 @@ public class DétecterCollisions : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "box1") 
+        if (collision.gameObject.tag == "box1")
         {
             Destroy(collision.gameObject);
-        
+            nbColis++;
+
+
         }
-        
+
     }
 }
