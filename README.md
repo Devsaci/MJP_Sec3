@@ -4,4 +4,6 @@
  https://www.udemy.com/course/apprendre-unity-et-la-creation-de-jeux-multijoueurs-en-reseau/learn/lecture/39414430#overview 
  # 28. Détecter les collisions dans vos jeux vidéo grâce aux colliders
  https://www.udemy.com/course/apprendre-unity-et-la-creation-de-jeux-multijoueurs-en-reseau/learn/lecture/39414434#overview
+ # 29. Déclencher des fonctions à des moments précis et ajouter un délais avant appel
+ https://www.udemy.com/course/apprendre-unity-et-la-creation-de-jeux-multijoueurs-en-reseau/learn/lecture/39414444?start=345#overview
  
