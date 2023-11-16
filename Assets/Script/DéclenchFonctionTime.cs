@@ -23,6 +23,9 @@ public class DéclenchFonctionTime : MonoBehaviour
         transform.Translate(0, 0, translation);
         transform.Rotate(0, rotation, 0);
 
+        if (Input.GetKeyUp(KeyCode.Escape))
+            Application.Quit();
+
     }
 
    
