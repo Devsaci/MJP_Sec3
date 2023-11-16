@@ -12,7 +12,7 @@ public class DéclenchFonctionTime : MonoBehaviour
     int nbColis = 0;
 
 
-    void Start()
+    void Update()
     {
         float translation = Input.GetAxis("Vertical") * speed;
         float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
