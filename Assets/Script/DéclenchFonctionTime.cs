@@ -7,12 +7,15 @@ public class DéclenchFonctionTime : MonoBehaviour
 {
 
     public float speed = 5.0f;
-   
+    public float rotationSpeed = 100.0f;
+    public TMP_Text text;
+    int nbColis = 0;
 
-  
+
     void Start()
     {
-
+        float translation = Input.GetAxis("Vertical") * speed;
+       
     }
 
    
