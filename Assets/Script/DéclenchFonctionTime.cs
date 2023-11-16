@@ -20,6 +20,8 @@ public class DéclenchFonctionTime : MonoBehaviour
         translation *= Time.deltaTime;
         rotation *= Time.deltaTime;
 
+        transform.Translate(0, 0, translation);
+
     }
 
    
