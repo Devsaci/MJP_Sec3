@@ -35,6 +35,8 @@ public class DéclenchFonctionTime : MonoBehaviour
         if (collision.gameObject.tag == "box")
         {
             Destroy(collision.gameObject);
+            nbColis++;
+            text.text = "" + nbColis;
 
 
         }
