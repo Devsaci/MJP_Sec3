@@ -30,7 +30,14 @@ public class DéclenchFonctionTime : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        
+
+
+        if (collision.gameObject.tag == "box")
+        {
+
+
+
+        }
     }
 
 
