@@ -15,7 +15,8 @@ public class DéclenchFonctionTime : MonoBehaviour
     void Start()
     {
         float translation = Input.GetAxis("Vertical") * speed;
-       
+        float rotation = Input.GetAxis("Horizontal") * rotationSpeed;
+
     }
 
    
