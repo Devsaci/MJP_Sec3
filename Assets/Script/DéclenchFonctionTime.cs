@@ -28,5 +28,11 @@ public class DéclenchFonctionTime : MonoBehaviour
 
     }
 
-   
+    private void OnCollisionEnter(Collision collision)
+    {
+        
+    }
+
+
+
 }
