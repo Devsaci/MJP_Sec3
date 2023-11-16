@@ -6,8 +6,8 @@ using TMPro;
 public class DéclenchFonctionTime : MonoBehaviour
 {
 
-    public float speed = 5.0f;
-    public float rotationSpeed = 100.0f;
+    public float speed = 3.0f;
+    public float rotationSpeed = 60.0f;
     public TMP_Text text;
     int nbColis = 0;
 
