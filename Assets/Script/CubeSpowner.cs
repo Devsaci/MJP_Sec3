@@ -15,7 +15,8 @@ public class CubeSpowner : MonoBehaviour
 
     public void CreatCube()
     {
-
+        float xval = Random.Range(-4.2f, 4.2f);
+        Instantiate(cubePrefab, new Vector3(),Quaternion.identity);
     }
    
 }
