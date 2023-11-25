@@ -13,5 +13,9 @@ public class CubeSpowner : MonoBehaviour
         
     }
 
+    public void CreatCube()
+    {
+
+    }
    
 }
