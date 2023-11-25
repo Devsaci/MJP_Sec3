@@ -10,7 +10,7 @@ public class CubeSpowner : MonoBehaviour
 
     void Start()
     {
-        
+        CreatCube();
     }
 
     public void CreatCube()
