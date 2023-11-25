@@ -342,6 +342,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 10, y: 2.220446e-16, z: 10}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &642641811 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5655867541776304448, guid: ec92d514cc1169441a12137f247e0e04, type: 3}
+  m_PrefabInstance: {fileID: 4707041822113091018}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &665199282
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88dc3b0ecb8761f49a9b6b56df2e1f91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cubePrefab: {fileID: 642641811}
 --- !u!1 &832612337
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +506,6 @@ GameObject:
   - component: {fileID: 895078387}
   - component: {fileID: 895078386}
   - component: {fileID: 895078385}
-  - component: {fileID: 895078384}
   - component: {fileID: 895078389}
   - component: {fileID: 895078390}
   m_Layer: 0
@@ -510,21 +515,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &895078384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895078383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aeb64a1e1b8c23e42a8092f00d001255, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
-  rotationSpeed: 100
-  text: {fileID: 1076454608}
 --- !u!65 &895078385
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -756,6 +746,7 @@ GameObject:
   - component: {fileID: 1076454607}
   - component: {fileID: 1076454609}
   - component: {fileID: 1076454608}
+  - component: {fileID: 1076454610}
   m_Layer: 5
   m_Name: Text (TMP) (1)
   m_TagString: Untagged
@@ -879,6 +870,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1076454606}
   m_CullTransparentMesh: 1
+--- !u!114 &1076454610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076454606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb64a1e1b8c23e42a8092f00d001255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  rotationSpeed: 60
+  text: {fileID: 1076454608}
 --- !u!1 &2041691912
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,7 +971,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8765778109685977583, guid: ec92d514cc1169441a12137f247e0e04, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8904882359631931126, guid: ec92d514cc1169441a12137f247e0e04, type: 3}
       propertyPath: m_LocalPosition.x
