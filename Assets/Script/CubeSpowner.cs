@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class CubeSpowner : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    public GameObject cubePrefab;
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }
